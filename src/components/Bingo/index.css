@@ -1,0 +1,25 @@
+.Bingo {
+  width: 816px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.Bingo-grids {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 48px;
+}
+
+.Bingo-grids ul {
+  margin: 0 0 42px 42px;
+}
+
+.Bingo-message {
+  padding: 48px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.Bingo-message + .Bingo-grids {
+  padding-top: 0;
+}

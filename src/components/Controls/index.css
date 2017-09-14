@@ -1,0 +1,15 @@
+.Controls {}
+
+.Controls button {
+  padding: 8px 16px;
+  border: 0;
+  background: #673AB7;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.Controls button + button {
+  margin-left: 16px;
+}

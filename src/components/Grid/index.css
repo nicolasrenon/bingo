@@ -1,0 +1,26 @@
+.Grid {
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  border-right: 1px solid #C5CAE9;
+  border-bottom: 1px solid #C5CAE9;
+  background: #E8EAF6;
+}
+
+.Grid li {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-top: 1px solid #C5CAE9;
+  border-left: 1px solid #C5CAE9;
+  font-size: 24px;
+  color: #5C6BC0;
+}
+
+.Grid li.is-active {
+  background: #5C6BC0;
+  color: #fff;
+}

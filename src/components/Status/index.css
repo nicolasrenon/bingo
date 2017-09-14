@@ -1,0 +1,31 @@
+.Status {
+  display: flex;
+}
+
+.Status li {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  background: #E8EAF6;
+  text-align: middle;
+  font-size: 16px;
+  border-radius: 2px;
+  color: #9FA8DA;
+}
+
+.Status li:last-child {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #5C6BC0;
+  font-size: 24px;
+  border-radius: 4px;
+  color: #5C6BC0;
+}
+
+.Status li + li {
+  margin-left: 16px;
+}
